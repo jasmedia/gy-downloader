@@ -23,10 +23,10 @@ When you want to start a new vidoe download you just need to provide a download 
 const downloader = require('@jasmedia/gy-downloader');
 
 // Required parameters
-let url = 'https://www.youtube.com/watch?v=LAXA9mhkEtc';
-let videoFormat = 'mp4';
-let downloadPath = '/Users/jaseem/Desktop/gdrive-downloader';
-let fileName = 'test-vedio';
+const url = 'https://www.youtube.com/watch?v=LAXA9mhkEtc';
+const videoFormat = 'mp4';
+const downloadPath = '/Users/jaseem/Desktop/gdrive-downloader';
+const fileName = 'test-vedio';
 
 // Call download deom gy-downloader
 downloader.download(url, videoFormat, downloadPath, fileName, function() {

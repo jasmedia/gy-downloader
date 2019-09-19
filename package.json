@@ -1,6 +1,6 @@
 {
     "name": "@jasmedia/gy-downloader",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Fastest multi-threaded gdrive/youtube video downloader",
     "main": "index.js",
     "scripts": {
